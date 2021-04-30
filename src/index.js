@@ -18,10 +18,6 @@ app.use('/images', routes.image, function (req, res, next) {
   next()
 })
 
-app.use('/memes', routes.memes, function (req, res, next) {
-  next()
-})
-
 app.listen(port, () => {
   console.log(`Server is runing on ${port}`)
 })
